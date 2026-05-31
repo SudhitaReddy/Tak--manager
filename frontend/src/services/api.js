@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://tak-manager-9cns.onrender.com",
 });
 
 API.interceptors.request.use((config) => {
