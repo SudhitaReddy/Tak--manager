@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.login-page {
+  display: flex;
+  height: 100vh;
+}
+
+.branding {
+  flex: 1;
+  background: #1e3a8a;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.branding h1 {
+  font-size: 52px;
+  margin-bottom: 10px;
+}
+
+.branding h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.branding p {
+  font-size: 18px;
+}
+
+.login-panel {
+  flex: 1;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  width: 420px;
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.login-box h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #222;
+}
+
+.login-box form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-box label {
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #333;
+}
+
+.login-box input {
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.login-box button {
+  padding: 12px;
+  background: #1e3a8a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-box button:hover {
+  background: #162d6b;
+}
+
+.login-box p {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.login-box a {
+  margin-left: 5px;
+  text-decoration: none;
+  color: #1e3a8a;
+  font-weight: bold;
+}
